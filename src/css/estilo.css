@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(255, 140, 53);
+}
+
+a,
+a:active,
+a:visited {
+  color: rgb(0, 253, 215)
+}
+
+.icone:hover {
+  opacity: 0.3;
+}
