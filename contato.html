@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wyllon Alencar</title>
   <link rel="stylesheet" href="src/css/estilo.css">
 </head>
@@ -11,15 +12,15 @@
   <!-- Início do header -->
   <header>
     <section class="cabecalho">
-      <img src="src/imagens/logo3-wyl-developer.png" alt="Logo marca de Wyllon Alencar" width="150px" />
+      <img src="src/imagens/logo3-wyl-developer.png" alt="Logo marca de Wyllon Alencar" width="300px" />
 
       <!-- Início do menu do site -->
       <nav>
-        <a href="inicio.html">
-          Início
+        <a href="inicio.html" style="padding-right: 50px;">
+          Página inícial
         </a>
-        <a href="contato.html">
-          Contato
+        <a href="contato.html" style="padding-left: 50px;">
+          Formulário de contato
         </a>
       </nav>
       <!-- Fim do menu do site -->
@@ -36,11 +37,11 @@
         <p>Preencha os dados abaixo e envie sua mensagem de
           contato.</p>
 
-        <fieldset>
-          <legend>
+        <fieldset style="background-color: antiquewhite;">
+          <legend style="background-color: antiquewhite; border-radius: 35%;">
             <h5>Dados de Contato</h5>
           </legend>
-          <form id=" frmInscricao" action="contato.php" method="POST">
+          <form id="frmInscricao" action="contato.php" method="POST">
 
             <label>Nome:</label><br>
             <input type="text" required="required" id="txtNome" maxlength="100" size="50"><br><br>
@@ -90,15 +91,15 @@
   </main>
   <!-- Fim do main -->
   <!-- Início do footer -->
-  <footer>
+  <footer class="redes-sociais">
     <!-- Início das redes sociais -->
-    <a href="#">
+    <a href="https://www.instagram.com/wyllon.dev/" class="icone icone-instagram">
       <img src="src/imagens/logo-insta.png" alt="Instagram" />
     </a>
-    <a href="#">
-      <img src="src/imagens/logo-twitter.png" alt="Twitter" />
+    <a href="https://github.com/Wyl07Tb" class="icone icone-github">
+      <img src="src/imagens/logo-github.png" alt="github" />
     </a>
-    <a href="#">
+    <a href="https://www.facebook.com/wyllon.alencar.1" class="icone icone-facebook">
       <img src="src/imagens/logo-facebook.png" alt="Facebook" />
     </a>
     <!-- Fim das redes sociais -->

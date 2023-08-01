@@ -2,12 +2,44 @@ body {
   background-color: rgb(255, 140, 53);
 }
 
+.cabecalho {
+  background-color: black;
+  text-align: center;
+}
+
+.paginacao {
+  text-align: center;
+}
+
 a,
 a:active,
 a:visited {
   color: rgb(0, 253, 215)
 }
 
+.imagem-de-exemplo{
+  padding-top: 50px;
+  text-align: center;
+}
+
 .icone:hover {
   opacity: 0.3;
+}
+
+.redes-sociais{
+  text-align: center;
+  padding: 50px;
+  border-radius: 100px;
+}
+
+.icone-github{
+  padding-inline: 50px;
+}
+
+footer {
+  background-color: black;
+}
+
+#frmInscricao {
+  background-color: antiquewhite;
 }
