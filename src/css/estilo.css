@@ -26,6 +26,10 @@ a:visited {
   opacity: 0.3;
 }
 
+.icone{
+  text-decoration: none;
+}
+
 .redes-sociais{
   text-align: center;
   padding: 50px;
@@ -37,6 +41,7 @@ a:visited {
 }
 
 footer {
+  text-decoration: none;
   background-color: black;
 }
 
