@@ -12,8 +12,8 @@ body {
 }
 
 a,
-a:active,
-a:visited {
+a:visited,
+a:active{
   color: rgb(0, 253, 215)
 }
 
@@ -32,12 +32,8 @@ a:visited {
 
 .redes-sociais{
   text-align: center;
-  padding: 50px;
-  border-radius: 100px;
-}
-
-.icone-github{
   padding-inline: 50px;
+  border-radius: 100px;
 }
 
 footer {
