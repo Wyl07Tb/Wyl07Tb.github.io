@@ -1,46 +1,57 @@
 body {
-  background-color: rgb(255, 140, 53);
+	background-color: rgb(255, 140, 53);
 }
 
 .cabecalho {
-  background-color: black;
-  text-align: center;
+	background-color: black;
+	text-align: center;
 }
 
 .paginacao {
-  text-align: center;
+	text-align: center;
 }
 
-a,
+a:hover,
 a:visited,
-a:active{
-  color: rgb(0, 253, 215)
+a:active {
+	color: rgb(0, 253, 215);
+	opacity: 0.3;
 }
 
-.imagem-de-exemplo{
-  padding-top: 50px;
-  text-align: center;
+.imagem-de-exemplo {
+	padding-top: 30px auto;
+	padding-bottom: 30px;
+	text-align: center;
 }
 
 .icone:hover {
-  opacity: 0.3;
+	opacity: 0.3;
 }
 
-.icone{
-  text-decoration: none;
+.icone {
+	text-decoration: none;
 }
 
-.redes-sociais{
-  text-align: center;
-  padding-inline: 50px;
-  border-radius: 100px;
+.redes-sociais {
+	text-align: center;
+	padding-inline: 50px;
+	border-radius: 100px;
 }
 
 footer {
-  text-decoration: none;
-  background-color: black;
+	text-decoration: none;
+	background-color: black;
 }
 
 #frmInscricao {
-  background-color: antiquewhite;
+	background-color: antiquewhite;
+}
+
+.plataformas-de-ensino a:hover {
+	opacity: 1;
+	color: blue;
+}
+
+h3 a img {
+	width: 20px;
 }
