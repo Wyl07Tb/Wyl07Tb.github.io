@@ -1,9 +1,12 @@
 body {
-	background-color: rgb(255, 140, 53);
+	margin: 5%;
+	background-image: linear-gradient(45deg, rgb(235, 26, 235), blue);
 }
 
 .cabecalho {
-	background-color: black;
+	background-image: url(/src/imagens/cidade.png);
+	background-position: center center;
+	background-size: 100%;
 	text-align: center;
 }
 
@@ -19,7 +22,7 @@ a:active {
 }
 
 .imagem-de-exemplo {
-	padding-top: 30px auto;
+	padding-top: 30px;
 	padding-bottom: 30px;
 	text-align: center;
 }
@@ -34,24 +37,27 @@ a:active {
 
 .redes-sociais {
 	text-align: center;
-	padding-inline: 50px;
 	border-radius: 100px;
 }
 
 footer {
 	text-decoration: none;
-	background-color: black;
-}
-
-#frmInscricao {
-	background-color: antiquewhite;
+	background-image: url(/src/imagens/fundo-para-footer.png);
+	background-position: center center;
+	background-size: 100%;
 }
 
 .plataformas-de-ensino a:hover {
 	opacity: 1;
-	color: blue;
+	color: rgb(254, 251, 89);
 }
 
 h3 a img {
 	width: 20px;
+}
+
+.imagem-de-certificado img {
+	width: 35%;
+	height: 50%;
+	margin: 3% 5% 3% 9%;
 }
