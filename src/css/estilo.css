@@ -1,6 +1,6 @@
 body {
 	margin: 5%;
-	background-image: linear-gradient(45deg, rgb(235, 26, 235), blue);
+	background-image: linear-gradient(45deg, yellow 30%, green 70%);
 }
 
 .cabecalho {
@@ -10,14 +10,22 @@ body {
 	text-align: center;
 }
 
-.paginacao {
-	text-align: center;
+nav a:visited, a:active {
+	color: yellow;
 }
 
-a:hover,
+nav a:hover,a:visited, a:active {
+	color: rgb(255, 0, 0);
+	opacity: 0.5;
+}
+
 a:visited,
 a:active {
-	color: rgb(0, 253, 215);
+	color: blue;
+}
+
+a:hover{
+	color: red;
 	opacity: 0.3;
 }
 
@@ -31,7 +39,7 @@ a:active {
 	opacity: 0.3;
 }
 
-.icone {
+.icone a img{
 	text-decoration: none;
 }
 
@@ -42,14 +50,14 @@ a:active {
 
 footer {
 	text-decoration: none;
-	background-image: url(/src/imagens/fundo-para-footer.png);
-	background-position: center center;
-	background-size: 100%;
+	background-image: url(/src/imagens/Sem\ título.png);
+	background-position: 70%;
+	background-size: 128%;
 }
 
 .plataformas-de-ensino a:hover {
 	opacity: 1;
-	color: rgb(254, 251, 89);
+	color: rgb(254, 89, 89);
 }
 
 h3 a img {
